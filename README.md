@@ -29,4 +29,5 @@ pip install torch torchvision pandas tqdm
 python train.py
 python evaluate.py
 ```
-## Performance snapshot
+## Performance snapshot  
+![performance](https://github.com/Khsuanko/NYCU-Computer-Vision-2025-Spring-HW2/blob/main/performance.png)
