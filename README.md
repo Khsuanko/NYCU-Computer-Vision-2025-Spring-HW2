@@ -13,7 +13,7 @@ This approach is well-suited for structured detection tasks like digit spotting 
 ## How to install
 1. Install Dependencies  
 ```python
-
+pip install torch torchvision pandas tqdm
 ```
 2. Ensure you have the dataset structured as follows:
 ```python
@@ -21,9 +21,12 @@ This approach is well-suited for structured detection tasks like digit spotting 
     ├── train/
     ├── val/
     ├── test/
+    ├── train.json
+    ├── valid.json
 ```
 3. Run the code
 ```python
-python HW1.py
+python train.py
+python evaluate.py
 ```
 ## Performance snapshot
